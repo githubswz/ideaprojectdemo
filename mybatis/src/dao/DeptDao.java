@@ -12,4 +12,6 @@ public interface DeptDao {
 
     public List<Dept> selectAll();
 
+    public void haha();
+
 }
