@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65facc4e-029c-4278-870c-848b66da7155" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1qZDzAWIN7xskiffom2oVmMYpMn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65facc4e-029c-4278-870c-848b66da7155" name="Default Changelist" comment="" />
+      <created>1617278478814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617278478814</updated>
+      <workItem from="1617278479864" duration="9000" />
+      <workItem from="1617278604539" duration="1905000" />
+      <workItem from="1617286160282" duration="12000" />
+      <workItem from="1617352048260" duration="2051000" />
+      <workItem from="1618915796598" duration="15000" />
+      <workItem from="1626577554574" duration="1148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:F:/Idea-Project/mybatis/src/dao" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1626578889916">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1626578889916" />
+    <state x="542" y="154" key="FileChooserDialogImpl" timestamp="1626578649400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1626578649400" />
+    <state x="307" y="58" key="SettingsEditor" timestamp="1626578583533">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="307" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1626578583533" />
+    <state x="594" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1626578881052">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="594" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1626578881052" />
+    <state x="567" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626578760683">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="567" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1626578760683" />
+  </component>
+</project>

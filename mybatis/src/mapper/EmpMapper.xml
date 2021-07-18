@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.EmpDao">
+
+    <resultMap id="empMap" type="Emp">
+        <id property="id" column="empId"/>
+        <result property="name" column="empName"/>
+        <result property="salary" column="salary"/>
+    </resultMap>
+
+    <resultMap id="empMapper" type="Emp">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="salary" column="salary"/>
+        <!--
+            association：用于配置关联属性，多对一的关系
+                property属性：当前需要映射的是对象中的哪个属性
+                javaType属性：当前映射的属性的Java类型
+                标签体：对当前映射的属性所在的表进行映射
+        -->
+        <association property="dept" javaType="Dept">
+            <id property="id" column="deptId"/>
+            <result property="name" column="deptName"/>
+        </association>
+    </resultMap>
+
+    <resultMap id="empMapper2" type="Emp">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="salary" column="salary"/>
+        <!--
+            resultMap属性：引用其他的ResultMap映射配置
+                值为：resultMap所在Mapper文件的namespace.resultMap的id值
+        -->
+        <association property="dept" javaType="Dept" resultMap="dao.DeptDao.deptMapper"/>
+    </resultMap>
+
+    <resultMap id="empMapper3" type="Emp">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="salary" column="salary"/>
+        <!--
+            select属性：引用其他的select查询配置
+                值为：select所在Mapper文件的namespace.select的id值
+            column属性：当前查询的某列，作为查询条件，传递给引用的select查询配置的参数
+        -->
+        <association property="dept" javaType="Dept" select="dao.DeptDao.selectById" column="dept_id"/>
+    </resultMap>
+
+    <sql id="empColumn">
+        e.id,
+        e.name,
+        e.salary,
+        d.id 'deptId',
+        d.name 'deptName'
+    </sql>
+
+    <insert id="insertEmp" parameterType="Emp">
+        insert into t_emp
+          (name, salary, dept_id)
+        values
+          (#{name},#{salary},#{dept.id})
+    </insert>
+
+    <!--<select id="selectAll" resultMap="empMapper">-->
+    <!--<select id="selectAll" resultMap="empMapper2">-->
+        <!--select <include refid="empColumn"/>-->
+        <!--from t_emp e-->
+            <!--left join t_dept d-->
+            <!--on e.dept_id = d.id-->
+    <!--</select>-->
+    <select id="selectAll" resultMap="empMapper3">
+        select id,name,salary,dept_id
+        from t_emp
+    </select>
+
+    <select id="selectByDeptId" parameterType="int" resultType="Emp">
+        select id,name,salary,dept_id
+        from t_emp
+        where dept_id=#{id}
+    </select>
+
+</mapper>
